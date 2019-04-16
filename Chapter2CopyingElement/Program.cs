@@ -19,14 +19,24 @@ namespace Chapter2CopyingElement
             }
             return ret;
         }
-        static void Main()
+        static void Main()  
         {
-            List<int> numbers = new List<int>();
-            numbers.Add(5);
-            numbers.Add(10);
-            numbers.Add(20);
-            List<int> firstTwo = CopyAtMost<int>(numbers, 2);
-            Console.WriteLine(firstTwo.Count);
+            //GenericTypeOf.PrintType<int>();
+            //GenericTypeOf.PrintType<string>();
+
+            //List<int> numbers = new List<int>();
+            //numbers.Add(5);
+            //numbers.Add(10);
+            //numbers.Add(20);
+            //List<int> firstTwo = CopyAtMost<int>(numbers, 2);
+            //Console.WriteLine(firstTwo.Count);
+
+            GenericCounter<string>.Increment();
+            GenericCounter<string>.Increment();
+            GenericCounter<string>.Display();
+            GenericCounter<int>.Display();
+            GenericCounter<int>.Increment();
+            GenericCounter<int>.Display();
         }
     }
 }
