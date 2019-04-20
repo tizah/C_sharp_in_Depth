@@ -31,12 +31,18 @@ namespace Chapter2CopyingElement
             //List<int> firstTwo = CopyAtMost<int>(numbers, 2);
             //Console.WriteLine(firstTwo.Count);
 
-            GenericCounter<string>.Increment();
-            GenericCounter<string>.Increment();
-            GenericCounter<string>.Display();
-            GenericCounter<int>.Display();
-            GenericCounter<int>.Increment();
-            GenericCounter<int>.Display();
+            //GenericCounter<string>.Increment();
+            //GenericCounter<string>.Increment();
+            //GenericCounter<string>.Display();
+            //GenericCounter<int>.Display();
+            //GenericCounter<int>.Increment();
+            //GenericCounter<int>.Display();
+
+            List<string> items = new List<string> { "Mango","Apple","Pear" };
+            GenericTypeOf.IterateOver(items);
+
+            List<int> numbers = new List<int> { 1,2,3,4,5 };
+            GenericTypeOf.IterateOver(numbers);
         }
     }
 }
