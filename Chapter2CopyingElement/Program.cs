@@ -38,11 +38,13 @@ namespace Chapter2CopyingElement
             //GenericCounter<int>.Increment();
             //GenericCounter<int>.Display();
 
-            List<string> items = new List<string> { "Mango","Apple","Pear" };
-            GenericTypeOf.IterateOver(items);
+            //List<string> items = new List<string> { "Mango","Apple","Pear" };
+            //GenericTypeOf.IterateOver(items);
 
-            List<int> numbers = new List<int> { 1,2,3,4,5 };
-            GenericTypeOf.IterateOver(numbers);
+            //List<int> numbers = new List<int> { 1,2,3,4,5 };
+            //GenericTypeOf.IterateOver(numbers);
+
+            Console.WriteLine(Fibonacci.FibonacciSeries(5)); 
         }
     }
 }
