@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -44,6 +45,13 @@ namespace Chapter2CopyingElement
             //List<int> numbers = new List<int> { 1,2,3,4,5 };
             //GenericTypeOf.IterateOver(numbers);
 
+            Expression<Func<int, int, int>> adder = (x, y) => x * y;
+            Func<int, int, int> executableAdder = adder.Compile();
+            Console.WriteLine(executableAdder(2, 3));
+            //Console.WriteLine(adder);
+
+
+            var me = LambdaExpression.action;
             Console.WriteLine(Fibonacci.FibonacciSeries(5)); 
         }
     }

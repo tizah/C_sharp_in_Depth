@@ -46,6 +46,7 @@
     <Compile Include="Delegates.cs" />
     <Compile Include="Fibonacci.cs" />
     <Compile Include="GenericTypeOf.cs" />
+    <Compile Include="LambdaExpression.cs" />
     <Compile Include="ObjectInitialization.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
