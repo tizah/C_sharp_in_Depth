@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter2CopyingElement", "Chapter2CopyingElement\Chapter2CopyingElement.csproj", "{1B5F27CC-E395-4C6A-ACDA-F6B91FCA9BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter4DynamicTyping", "ConsoleApp1\Chapter4DynamicTyping.csproj", "{C65350C8-9929-4E9A-9A00-DAF875118AFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1B5F27CC-E395-4C6A-ACDA-F6B91FCA9BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B5F27CC-E395-4C6A-ACDA-F6B91FCA9BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B5F27CC-E395-4C6A-ACDA-F6B91FCA9BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C65350C8-9929-4E9A-9A00-DAF875118AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C65350C8-9929-4E9A-9A00-DAF875118AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C65350C8-9929-4E9A-9A00-DAF875118AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C65350C8-9929-4E9A-9A00-DAF875118AFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

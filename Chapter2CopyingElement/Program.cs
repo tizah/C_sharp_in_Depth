@@ -52,7 +52,15 @@ namespace Chapter2CopyingElement
 
 
             var me = LambdaExpression.action;
-            Console.WriteLine(Fibonacci.FibonacciSeries(5)); 
+            Console.WriteLine(Fibonacci.FibonacciSeries(5));
+            var we = new
+            {
+                david = "david",
+                id = 2,
+            };
+
+     
+         
         }
     }
 }
