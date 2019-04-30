@@ -14,9 +14,13 @@ namespace ConsoleApp1
                 2.75,
                 TimeSpan.FromSeconds(45)
             };
-            IEnumerable<dynamic> query = source
-            .AsQueryable()
-            .Select(x => x * 2);
+            //IEnumerable<dynamic> query = source   
+            //.AsQueryable()
+            //.Select(x => x * 2);
+
+           
+            dynamic me = "david";
+            Console.WriteLine(me.we()); ;
         }
     }
 }
